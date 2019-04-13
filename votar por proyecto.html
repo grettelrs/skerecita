@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Votación de proyecto</title>
+	<link rel="stylesheet" type="text/css" href="form.css">
+</head>
+<body >
+	<body>
+  <header>
+	<div id="menu">
+	<ul>
+	<a class= "menubar" id="inicio" href="index.html">Inicio</a>
+	<a class= "menubar" id="acerca" href="agregar proyecto.html">Agregar proyectos</a>	
+	<a class= "menubar" id="info" href= "mostrar.html">Lista de proyectos</a>
+	<button onclick="cerrar()">cerrar sesión</button>
+	</ul>
+	</div>
+</header>
+
+<h1 class="form">Votación</h1>
+   <div class="info"><p>Votaciones de los proyectos más populares</p></div>
+   <div id="cargarproyecto"></div>
+  <div id="cuadro"></div>
+  <div id="cuerpo">
+	    <h1>Por favor llena los espacios con la información solicitada.</h1>
+	    
+    <div class="contentform">
+
+    	<div class="leftcontact">
+			      <div class="form-group">
+			        <p>Nombre del estudiante<span>*</span></p>
+			        <span class="icon-case"><i class="fa fa-male"></i></span>
+				        <input type="text" name="nom" id="nombrevotante" />
+                <div class="validation"></div>
+       </div> 
+
+            <div class="form-group">
+            <p>Sección del estudiante<span>*</span></p>
+            <span class="icon-case"><i class="fa fa-user"></i></span>
+				<input type="text" name="seccionvotante" id="seccionvotante"/>
+
+                <div class="validation"></div>
+			</div>
+
+
+			<div class="form-group">
+			<p><p>Carnet del estudiante<span>*</span></p>
+			<span class="icon-case"><i class="fa fa-home"></i></span>
+				<input type="text" name="carnetvotante" id="carnetvotante" />
+                <div class="validation"></div>
+			</div>
+
+
+	</div>
+
+ 	<div class="rightcontact">	
+			
+	</div> 
+	</div>
+<button  class="bouton-contact" onclick="guardarvoto()">Enviar</button>
+
+</div>	
+<!--comprueba si el usuario esta logeado sino es así lo envía a que lo haga
+	<script type="text/javascript">
+		if (!localStorage.getItem('Usuariologeado')) {
+			alert("no has iniciado sesión")
+			location.href="login.html"
+		}
+	</script>-->
+	<script type="text/javascript" src="jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="claseexpofrontend.js"></script>
+	<script type="text/javascript" src="claseadministrador.js"></script>
+	<script type="text/javascript" src="votar.js"></script>
+</body>
+</html>

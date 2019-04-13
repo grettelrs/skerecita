@@ -1,0 +1,71 @@
+body {
+  margin: auto;
+  background: #eaeaea;  
+   font-family:let;
+}
+
+@font-face {
+  font-family: let;
+  src: url(sp.ttf);
+}
+@font-face {
+  font-family: tit;
+  src: url(bebas.ttf);
+}
+    #proyecticos {
+      margin-top: 50px;
+      margin-left: 24%;
+      float: center;
+      width: 350px;
+      height: 200px;
+      font-family:let;
+      font-size:20px;
+    }
+    #proyecticos caption {
+      text-align:center;
+      padding:5px 10px;
+      background-color:#34495e;
+      color:#ffffff;
+      font-weight:bold;
+      font-size:25px;
+    }
+    #proyecticos caption div:nth-child(1) {float:center;}
+    #proyecticos caption div:nth-child(2) {float:center;}
+    #proyecticos caption div:nth-child(2) a {cursor:pointer;}
+    #proyecticos th {
+      font-family: tit;
+      background-color:#34495e;
+      color:#fff;
+      padding: 5px 5px;
+      font-size: 30px;
+    }  
+
+    #proyecticos td {
+      text-align:center;
+      width: 120px;
+      height: 120px;
+      padding: 5px 5px;
+      background-color:#FFFFFF;
+    }
+    #proyecticos .hoy {
+      background-color:rgba(141,199,175,0.7);
+    }
+    button{
+      border-radius: 10%;
+      background-color:#5da0a2;
+      text-align: center;
+      font-family: let;
+      font-size: 17px;
+      margin-left: 0%;
+    }
+    #main{
+      float: center;
+      align-content: center;
+    }
+    #botones{
+      margin-top: 50px;
+  }
+  #botones, #ir, #regresar{
+    margin-left: 26%;
+  }
+

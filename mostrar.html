@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Proyectos</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="tabla.css">
+	<link rel="stylesheet" type="text/css" href="form.css">
+</head>
+<body onload="mostrarproyecto()">
+	<header>
+	<div id="menu">
+	<ul>
+	<a class= "menubar" id="inicio" href="index.html">Inicio</a>
+	<a class= "menubar" id="acerca" href="agregar proyecto.html">Agregar proyectos</a>	
+	<a class= "menubar" id="info" href= "mostrar.html">Lista de proyectos</a>
+	</ul>
+	</div>
+</header>
+<div id="main">
+		<table id="proyecticos">
+		<tr>
+			<th class="tit" id="t9">Nombre del proyecto</th>
+			<th class="tit" id="t10">Miembros del equipo</th>
+			<th class="tit" id="t11">Grado de los estudiantes</th>
+			<th class="tit" id="t12">Temática del proyecto</th>
+			<th class="tit" id="t13">Descripción del proyecto</th>
+			<th class="tit" id="t14">Logo</th>
+			<th class="tit" id="t15">Cantidad de votos</th>
+		</tr>
+		</table>
+</div>
+</body>
+</html>
+<!--comprueba si el usuario esta logeado sino es así lo envía a que lo haga
+	<script type="text/javascript">
+		if (localStorage.getItem("Usuariologeado")== null) {
+			alert("no has iniciado sesión")
+			location.href="login.html"
+		}
+	</script>-->
+ <script type="text/javascript" src="jquery-3.2.1.min.js"></script>
+ <script type="text/javascript" src="claseexpofrontend.js"></script>
+ <script type="text/javascript" src="mostrar pro.js"></script>

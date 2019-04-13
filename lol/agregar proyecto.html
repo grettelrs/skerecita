@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Formulario agregar proyecto</title>
+	<link rel="stylesheet" type="text/css" href="form.css">
+</head>
+<body>
+<!--Paleta de colores
+gris:#f4f7f7
+azul claro:#aacfd0
+turquesa:#5da0a2
+azul:#34495e
+-->
+<h1 class="form">Proyecto más popular</h1>
+   <div class="info"><p>Votaciones de los proyectos más populares</p></div>
+  
+  <div id="cuerpo">
+	    <h1>Por favor llena los espacios con la información solicitada.</h1>
+	    
+    <div class="contentform">
+
+    	<div class="leftcontact">
+			      <div class="form-group">
+			        <p>Nombre del proyecto<span>*</span></p>
+			        <span class="icon-case"><i class="fa fa-male"></i></span>
+				        <input type="text" name="nom" id="Nombre" />
+                <div class="validation"></div>
+       </div> 
+
+            <div class="form-group">
+            <p>Miembros del grupo<span>*</span></p>
+            <p>Primer miembro<span></span></p>
+            <span class="icon-case"><i class="fa fa-user"></i></span>
+				<input type="text" name="miembro1" id="miembro1"/>
+
+                <div class="validation"></div>
+			</div>
+
+			<div class="form-group">
+			<p>Segundo miembro<span></span></p>	
+			<span class="icon-case"><i class="fa fa-male"></i></span><input type="text" name="miembro2" id="miembro2"/>
+                <div class="validation"></div>
+			</div>	
+
+			<div class="form-group">
+			<p>Tercer miembro<span></span></p>	
+			<span class="icon-case"><i class="fa fa-male"></i></span><input type="text" name="miembro3" id="miembro3"/>
+                <div class="validation"></div>
+			</div>	
+
+			<div class="form-group">
+			<p>Nivel académico de los estudiantes<span>*</span></p>	
+			<span class="icon-case"><i class="fa fa-envelope-o"></i></span>
+                <input type="text" name="grado" id="grado" />
+                <div class="validation"></div>
+			</div>	
+
+			<div class="form-group">
+			<p>Temática del proyecto<span>*</span></p>	
+			<span class="icon-case"><i class="fa fa-envelope-o"></i></span>
+                <input type="text" name="tematica" id="tematica" />
+                <div class="validation"></div>
+			</div>	
+
+			<div class="form-group">
+			<p><p>Descripción del proyecto<span>*</span></p>
+			<span class="icon-case"><i class="fa fa-home"></i></span>
+				<input type="text" name="descripcion" id="descripcion" />
+                <div class="validation"></div>
+			</div>
+
+			
+			<div class="form-group">
+			<p>Logo del proyecto<span>*</span></p>
+			<span class="icon-case"><i class="fa fa-map-marker"></i></span>
+				<input type="file" id="img" required data-msg="Inserte una imagen."/>
+                <div class="validation"></div>
+			</div>
+
+	</div>
+
+ 	<div class="rightcontact">	
+			
+	</div> 
+	</div>
+<button  class="bouton-contact" onclick="botonguardarclick1()">Enviar</button>
+<!--<button class="bouton-contact"  onclick="window.location.href='calendario.html'">Calendario</button>-->
+
+</div>	
+
+	<script type="text/javascript" src="jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="claseexpofrontend.js"></script>
+</body>
+</html>

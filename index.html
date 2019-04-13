@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>INDEX</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="index.css" />
+		<script type="text/javascript" src="../cine.js"></script>
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<div class="inner">
+
+							<!-- Logo -->
+								<a href="index.html" class="logo">
+									<span class="symbol"><img src="images/logo.svg" alt="" /></span><span class="title">EXPOTEC</span>
+								</a>
+
+							<!-- Nav -->
+								<nav>
+									<ul>
+										<li><a href="#menu">Menú</a></li>
+									</ul>
+								</nav>
+
+						</div>
+					</header>
+
+				<!-- Menu -->
+					<nav id="menu">
+						<h2>Menú</h2>
+						<ul>
+							<li><a href="index.html">Inicio</a></li>
+							<li><a href="agregar proyecto.html">Agregar proyectos</a></li>
+							<li><a href="mostrar.html">Lista de proyectos</a></li>
+							<li><a href="votar por proyecto.html">Votación</a></li>
+							<li><a href="login.html">Ingresar</a></li>
+							<li><a href="registro.html">Registrarse</a></li>
+							<li><button onclick="salir()">Cerrar sesión</button></li>
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+							<header>
+								<h1>Bienvenido al sitio de 
+								 votaciones de EXPOTEC.</h1>
+							</header>
+							<section class="tiles">
+								<article class="style1">
+									<span class="image">
+										<img src="images/tecla.jpg" alt="" />
+									</span>
+									<a href="agregar proyecto.html">
+										<h2>Agregar proyectos</h2>
+										<div class="content">
+											<p>Añadir proyectos nuevos a la votación.</p>
+										</div>
+									</a>
+								</article>
+								<article class="style2">
+									<span class="image">
+										<img src="images/lista.jpg" alt="" />
+									</span>
+									<a href="mostrar.html">
+										<h2>Lista de proyectos</h2>
+										<div class="content">
+											<p>Muestra los diferentes proyectos en
+											la feria EXPOTEC.</p>
+										</div>
+									</a>
+								</article>
+							</section>
+						</div>
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<div class="inner">
+							<section>
+							</section>
+							<section>
+							</section>
+							<ul class="copyright">
+								<li>&copy; Cine. All rights reserved</li>
+							</ul>
+						</div>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+		<script type="text/javascript">
+			function salir(){
+			localStorage.removeItem("Usuariologeado");
+			location.href="index.html";
+		}
+		</script>
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>

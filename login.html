@@ -1,0 +1,53 @@
+ <!DOCTYPE html>
+<html>
+<head>
+	<title>Log in</title>
+	<link rel="stylesheet" type="text/css" href="form.css">
+</head>
+<body>
+	<header>
+	<div id="menu">
+	<ul>
+	<a class= "menubar" id="inicio" href="index.html">Inicio</a>
+	<a class= "menubar" id="acerca" href="agregar proyecto.html">Agregar proyectos</a>	
+	<a class= "menubar" id="info" href= "mostrar.html">Lista de proyectos</a>
+	</ul>
+	</div>
+</header>
+	  <h1 class="form">Log in</h1>
+   <div class="info"><p>Log in</p></div>
+
+  
+  
+  <div id="cuerpo">
+	    <h1>Por favor llena los espacios con la información.</h1>
+
+ 	<div class="contentform">
+
+    	<div class="leftcontact">
+
+            <div class="form-group">
+            <p>Correo eléctronico<span>*</span></p>
+            <span class="icon-case"><i class="fa fa-user"></i></span>
+				<input type="email" name="email" id="emaillogin"/>
+                <div class="validation"></div>
+			</div>
+
+			<div class="form-group">
+			<p>Contraseña<span>*</span></p>	
+			<span class="icon-case"><i class="fa fa-envelope-o"></i></span>
+                <input type="password" name="clave" id="clavelogin" />
+                <div class="validation"></div>
+			</div>		
+		
+		</div>
+			
+	</div>
+<button  class="bouton-contact" onclick="ingreso1()">Ingresar</button>
+
+</div>	
+
+	<script type="text/javascript" src="jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="claseadministrador.js"></script>
+</body>
+</html>
